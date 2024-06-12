@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Karolpytel\\CurrencyExchange\\": "src/"
+            "Domain\\": "src/Domain/",
+            "Application\\": "src/Application/"
         }
     },
     "authors": [
@@ -12,5 +13,7 @@
             "email": "karolpyt1999@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
 }
