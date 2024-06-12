@@ -1,0 +1,16 @@
+{
+    "name": "karolpytel/currency-exchange",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Karolpytel\\CurrencyExchange\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karol Pytel",
+            "email": "karolpyt1999@gmail.com"
+        }
+    ],
+    "require": {}
+}
